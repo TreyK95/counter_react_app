@@ -18,6 +18,8 @@ class Counter extends React.Component {
   render() {
     return (
       <div>
+        <h1>Counter Example</h1>
+        <p>{this.props.name} Counter</p>
         <p>{this.state.value}</p>
         <button onClick={this.inc}>+</button>
         <button onClick={this.dec}>-</button>

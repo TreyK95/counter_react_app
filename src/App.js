@@ -8,8 +8,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1 className="App-title">Counter Example</h1>
-        <Counter />
+        <Counter name="Red" />
+        <Counter name="Green" />
+        <Counter name="Blue" />
+        <Counter name="Purple" />
       </div>
     );
   }
